@@ -1,2 +1,9 @@
 # Google App Engine generated folder
 appengine-generated/
+import socket
+import sys
+
+print ('enter your DNS Or target: ')
+hostname = input ()
+ip =socket.gethastbyname()
+print ('host name is :' ,hostname,
